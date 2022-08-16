@@ -9,8 +9,8 @@ const settings = {
 };
 
 const sketch = ({width, height}) => {
-  const cols = 75;
-  const rows = 10;
+  const cols = 100;
+  const rows = 20;
   const numCells = cols * rows;
 
   //grid
@@ -30,7 +30,7 @@ const sketch = ({width, height}) => {
   let x, y, n, linehWidth, color;
 
   let frequency = 0.003;
-  let amplitude = 75;
+  let amplitude = 100;
 
   const colors = colormap({
     colormap: 'electric',
